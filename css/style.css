@@ -1,0 +1,211 @@
+
+html, body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.pagina {
+    width: 900px;
+    margin: 0px auto 0px auto;
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.menu div{
+    color: navy;
+    display: inline;
+}
+
+.menu .titulo{
+    color: blue;
+    width: 500px;
+    font-weight:700;
+    font-size: 1.5em;
+    margin-right: 200px;
+}
+
+.menu .botones div {
+    padding-right: 30px;
+    display: inline;
+}
+
+button {
+    background-color: rgb(55,87,213);
+    border: solid 1px rgb(55,87,213);
+    border-radius: 5px;
+    color: white;
+    padding: 1em;
+}
+
+.fight {
+    vertical-align: top;
+}
+
+.inline {
+    display: inline;
+}
+
+h1, h2, h3, h4 {
+    color: navy;
+}
+
+.iconito {
+    height: 1em;
+    vertical-align: middle;
+}
+
+.iconito2 {
+    height: 2.2em;
+}
+
+.bkflecha {
+    background-image: url("../img/triangulo.png");
+    background-size: 130px 130px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.enfermera {
+    background-color: dodgerblue;
+    background-image: url("../img/enfermera.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 450px;
+}
+
+.enfermero {
+    background-color: dodgerblue;
+    background-image: url("../img/enfermero.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 450px;
+}
+
+.negritas {
+    font-weight: bold;
+}
+
+.superpuesto {
+    background-color: white;;
+    box-shadow: 0 20px 10px 0px rgb(231,238,250);
+    opacity: 80%;
+    border-radius: 5px;
+    padding: 2em;
+    position: absolute;
+    width: 650px;
+}
+.superpuesto table tr td {
+    padding-right: 40px;
+    vertical-align: middle;
+}
+
+.superpuesto table tr td button {
+    padding: 1em 3em 1em 3em;
+}
+
+.vacunas {
+    text-align: center;
+    width: 100%;
+}
+    .vacunas img {
+        width: 850px!important;
+    }
+
+.why {
+    text-align: center;
+}
+
+.why div {
+    border: solid 1px rgb(231,238,250);
+    box-shadow: 0 10px 10px 0px rgb(231,238,250);
+    display: inline-block;
+    height: 200px;
+    font-size: 0.8em;
+    padding: 10px;
+    margin: 0 7px 0 7px;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+
+.paciente {
+    background-color: dodgerblue;
+    background-image: url("../img/paciente.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 450px;
+}
+
+.preparations h3{
+    font-weight: bold;
+    display: inline;
+    margin: 0.5em;
+}
+
+.preparations img {
+    padding-left: 2em;
+}
+
+.preparations p {
+    margin-left: 4em;
+}
+
+.mitad {
+    width: 450px;
+}
+
+.mitad div {
+    display: inline-block;
+    padding: 2em;
+    vertical-align: top;
+    width: 150px;
+}
+.mitad img {
+    vertical-align: middle;
+}
+
+.mitad h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.mitad h3 .numero {
+    color: gray;
+    font-size: 0.6em;
+    vertical-align: top;
+}
+.mitad div button {
+    width: 150px;
+}
+
+.pie {
+    background-color: rgb(238,243,255);
+    color: rgb(90, 90, 153);
+    font-size: 0.8em;
+    margin-top: 100px;
+    padding: 2em;
+}
+.pie #grande {
+    width: 450px;
+}
+.pie table tr td {
+    vertical-align: top;
+    width: 150px;
+}
+
+.terminos {
+    margin-top: 50px;
+    width: 100%;
+}
+.terminos tr td {
+    width: 450px;
+}
+.terminos tr #terms {
+    text-align: center;
+}
